@@ -29,7 +29,6 @@ curl -X POST \
   http://localhost:3005/template \
   -H 'Cache-Control: no-cache' \
   -H 'Content-Type: application/json' \
-  -H 'Postman-Token: e5f5c38b-f9e5-449b-a15f-c803817464cb' \
   -d '{
 	"chart": "stable/jenkins",
 	"version": "0.13.2",
